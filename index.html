@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning| Home</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -29,63 +29,91 @@
     </ul>
 
     <p>As </p> -->
-<!-- 
+    <!-- 
     <br><br>
     <h2>Rendering an IMAGE</h2>
     <img src="./assets/img/poster1.jpg" alt="Medicine in the trolley and the ground" title="banner"> -->
 
     <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-        </nav>
-    </header>
-        <main>
-            <h1>Table</h1>
-            <table border="1"">
-                <tr>
-                    <th>Student No</th>
-                    <th>name</th>
-                    <th>Major</th>
-                    <th>DOB</th>
-                </tr>
-                <tr>
-                    <td>240102</td>
-                    <td>Renethe</td>
-                    <td>computer science</td>
-                    
-                </tr>
-                <tr>
-                    <td>250403</td>
-                    <td>Maria</td>
-                    <td>Physics</td>
-                </tr>
-                <tr>
-                    <td>2023040</td>
-                    <td>Thomas</td>
-                    <td>Education</td>
-                    <td>2020-04-02</td>
-                </tr>
-            </table> 
-            <br>
-            <hr>
 
-            <h2>Form </h2>
-            <form action="/another.html">
-                <fieldset>
-                    <legend>Enter Username</legend>
-                    <input type="text" required="Enter your username please"><br>
+    </header>
+    <main style="justify-content: center; align-items: center;">
+        <fieldset>
+            <legend>
+                <h2>Table</h2>
+            </legend>
+            <table>
+
+            </table>
+        </fieldset><br>
+
+      
+            
+
+
+            <fieldset>
+                <h2>Sign Up Form</h2>
+                <form action="">
+                    <fieldset>
+                        <legend><h3>Logins details</h3></legend>
+                        <label for="username">username:</label>
+                        <input type="text" id="username" name="username"><br><br>
+                        <label for="password">password:</label>
+                        <input type="password" id="password" required><br><br>
+                    </fieldset><br>
+
+                    <fieldset>
+                        <legend><h3>User details</h3></legend>
+                        <label for="Mr">Mr:</label>
+                        <input type="radio" name="title" id="Mr">
+                        <label for="Mrs">Mrs</label>
+                        <input type="radio" name="title" id="Mrs">
+                        <label for="Dr">Dr</label>
+                        <input type="radio" name="title" id="Dr">
+                        <label for="Others">Others</label>
+                        <input type="radio" name="title" id="Others"><br><br>
+
+                        <label for="sname">Surname:</label>
+                        <input type="text" id="sname">
+                        <label for="fname"><br><br>First name:</label>
+                        <input type="text" id="fname"><br><br>
+                        <label for="cell">Cell Phone:</label>
+                        <input type="tel" id="cell"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email"><br><br>
+                        <label for="dob">Date Of Birth:</label>
+                        <input type="date" id="dob">
+                    </fieldset><br>
+
+
+                    <fieldset>
+                        <legend><h3>Submit Subject</h3></legend>
+                        <br>
+                        <input type="checkbox" id="confirm">
+                        <label for="confirm">Confirm Details</label>
+                        <br>
+                        <input type="submit" value="submit">
+                    </fieldset>
+
+                </form>
+                <fieldset >
+                    <legend>Video</legend><br>
+                    <video src="/assets/original.mp4" controls style="width: 50%;"></video>
+
                 </fieldset>
-                <label for="username">Password:</label>
-                <input type="password" required="Enter your password please"><br>
-                <input type="submit" value="Submit">
-            </form>   
-        </main>
-        <aside>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur obcaecati praesentium alias, porro voluptatum sit, pariatur quod ratione, commodi minima sunt itaque dolorem ullam ad quisquam facilis? Debitis, numquam soluta?
-        </aside>
-  
+                <fieldset">
+                    <legend><h3>Audio</h3></legend>
+                    <audio src="/assets/Alan_Walker,_Daya_-_Heart_over_Mind__Official_Music_Video_(128k).m4a" controls></audio>
+                </fieldset>
+
+            </fieldset>
+        </div>
+
+    </main>
+    <aside>
+
+    </aside>
+
 </body>
 
 </html>

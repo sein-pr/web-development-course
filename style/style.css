@@ -35,6 +35,10 @@ html{
 body{
     background: var(--background);
 }
+.sign-up{
+    align-items: center;
+    width: 100%;
+}
 
 header{
     background: var(--primary-dark);
