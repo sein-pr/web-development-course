@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+:root {
+
+    /* Ligh Mode colors */
+    --text: #040316;
+    --background: #e3e3e8;
+    --primary: #44baff;
+    --secondary: #2979ff;
+    --accent: #2962ff;
+
+    /* Dark mode colors */
+    --text-dark: #ffffff;
+    --background-dark: #2f2f36;
+    --primary-dark: #2962ff;
+    --secondary-dark: #2979ff;
+    --accent-dark: #44baff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 1rem;
+}
+
+body{
+    background: var(--background);
+}
+
+header{
+    background: var(--primary-dark);
+}
+main{
+    background: var(--background);
+}
+aside{
+    background: var(--primary-dark);
+}
