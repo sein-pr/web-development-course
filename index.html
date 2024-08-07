@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning| Home</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
@@ -37,104 +37,108 @@
     <header>
 
     </header>
-    <main style="justify-content: center; align-items: center;">
-        <fieldset>
-            <legend>
-                <h2>Table</h2>
-            </legend>
-            <table>
-                <table border="1">
-                    <tr>
-                        <th>Type</th>
-                        <th>Cost</th>
-                    </tr>
-                    <tr>
-                        <td>Student</td>
-                        <td>N$10.00</td>
-                    </tr>
-                    <tr>
-                        <td>Staff</td>
-                        <td>N$20.00</td>
-                    </tr>
-                    <tr>
-                        <td>Visitors</td>
-                        <td rowspan="2">N$50</td>
-                    </tr>
-                    <tr>
-                        <td>Others</td>
-                    </tr>
-                </table>
-            </table>
-        </fieldset><br>
-
-      
-            
-
-
+    <main>
+        <fieldset class="container">
             <fieldset>
-                <h2>Sign Up Form</h2>
-                <form action="">
-                    <fieldset>
-                        <legend><h3>Logins details</h3></legend>
-                        <label for="username">username:</label>
-                        <input type="text" id="username" name="username"><br><br>
-                        <label for="password">password:</label>
-                        <input type="password" id="password" required><br><br>
-                    </fieldset><br>
+                <legend>
+                    <h2>Table</h2>
+                </legend>
+                <table>
+                    <table border="1">
+                        <tr>
+                            <th>Type</th>
+                            <th>Cost</th>
+                        </tr>
+                        <tr>
+                            <td>Student</td>
+                            <td>N$10.00</td>
+                        </tr>
+                        <tr>
+                            <td>Staff</td>
+                            <td>N$20.00</td>
+                        </tr>
+                        <tr>
+                            <td>Visitors</td>
+                            <td rowspan="2">N$50</td>
+                        </tr>
+                        <tr>
+                            <td>Others</td>
+                        </tr>
+                    </table>
+                </table>
+            </fieldset><br>
 
-                    <fieldset>
-                        <legend><h3>User details</h3></legend>
-                        <label for="Mr">Mr:</label>
-                        <input type="radio" name="title" id="Mr">
-                        <label for="Mrs">Mrs</label>
-                        <input type="radio" name="title" id="Mrs">
-                        <label for="Dr">Dr</label>
-                        <input type="radio" name="title" id="Dr">
-                        <label for="Others">Others</label>
-                        <input type="radio" name="title" id="Others"><br><br>
+            <h2>Sign Up Form</h2>
+            <form action="">
+                <fieldset>
+                    <legend>
+                        <h3>Logins details</h3>
+                    </legend>
+                    <label for="username">username:</label>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="password">password:</label>
+                    <input type="password" id="password" required><br><br>
+                </fieldset><br>
 
-                        <label for="sname">Surname:</label>
-                        <input type="text" id="sname">
-                        <label for="fname"><br><br>First name:</label>
-                        <input type="text" id="fname"><br><br>
-                        <label for="cell">Cell Phone:</label>
-                        <input type="tel" id="cell"><br><br>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email"><br><br>
-                        <label for="dob">Date Of Birth:</label>
-                        <input type="date" id="dob">
-                    </fieldset><br>
+                <fieldset>
+                    <legend>
+                        <h3>User details</h3>
+                    </legend>
+                    <label for="Mr">Mr:</label>
+                    <input type="radio" name="title" id="Mr">
+                    <label for="Mrs">Mrs</label>
+                    <input type="radio" name="title" id="Mrs">
+                    <label for="Dr">Dr</label>
+                    <input type="radio" name="title" id="Dr">
+                    <label for="Others">Others</label>
+                    <input type="radio" name="title" id="Others"><br><br>
+
+                    <label for="sname">Surname:</label>
+                    <input type="text" id="sname"><br>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname"><br>
+                    <label for="cell">Cell Phone:</label>
+                    <input type="tel" id="cell"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email"><br>
+                    <label for="dob">Date Of Birth:</label>
+                    <input type="date" id="dob">
+                </fieldset><br>
 
 
-                    <fieldset>
-                        <legend><h3>Submit Subject</h3></legend>
-                        <br>
-                        <input type="checkbox" id="confirm">
-                        <label for="confirm">Confirm Details</label>
-                        <br>
-                        <input type="submit" value="sub
-                        -3
-                        mit">
-                    </fieldset>
-
-                </form>
-                <fieldset >
-                    <legend>Video</legend><br>
-                    <video src="/assets/original.mp4 " autoplay ></video>
-
+                <fieldset>
+                    <legend>
+                        <h3>Submit Subject</h3>
+                    </legend>
+                    <br>
+                    <input type="checkbox" id="confirm">
+                    <label for="confirm">Confirm Details</label>
+                    <br>
+                    <input type="submit" value="submit">
                 </fieldset>
-                <fieldset">
-                    <legend><h3>Audio</h3></legend>
-                    <audio src="/assets/Alan_Walker,_Daya_-_Heart_over_Mind__Official_Music_Video_(128k).m4a" ></audio>
-                </fieldset>
+
+            </form>
+            <fieldset>
+                <legend>Video</legend><br>
+                <video src="/assets/original.mp4 " autoplay></video>
 
             </fieldset>
-        </div>
+
+            <fieldset>
+                <legend>
+                    <h3>Audio</h3>
+                </legend>
+                <audio src="/assets/Alan_Walker,_Daya_-_Heart_over_Mind__Official_Music_Video_(128k).m4a"
+                    controls></audio>
+            </fieldset>
+
+        </fieldset>
 
     </main>
-    <aside>
+    <footer class="bottom-footer">
+        <p>&copy; 2023 SEIN INDUSTRIES. All rights reserved.</p>
 
-    </aside>
+    </footer>
 
 </body>
 
