@@ -1,0 +1,52 @@
+
+p{
+    color: #0000ff;
+}
+
+.highlight{
+    background-color: yellow;
+    font-size: 2em;
+}
+
+#main-header{
+    font-size: 3em;
+}
+
+h1,
+h2,
+h3{
+    color: blue;
+}
+
+a{
+    font-weight: bold;
+    font-style: italic;
+}
+
+input[type="text"]{
+    border: 2px solid red;
+}
+
+a:hover{
+    color: green;
+}
+
+li:nth-child(even){
+    background-color: #0000ff;
+}
+
+h2::before{
+    content: '★';
+}
+
+div p::after{
+    content: ' Read more...';
+}
+
+p span{
+    background-color: blue;
+}
+
+p>{
+    color: yellow;
+}

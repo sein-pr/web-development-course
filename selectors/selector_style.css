@@ -1,0 +1,21 @@
+input[type="text"]
+{
+    width: 255px;
+    height: 27px;
+    display: block;
+    color: gray;
+    border-radius: 10px;
+}
+
+select{
+    width: 255px;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+select:hover{
+    background-color: #2962ff;
+    color: #040316;
+}
